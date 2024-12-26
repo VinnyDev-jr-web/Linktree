@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+    color:antiquewhite;
+}
+h1{
+    font-family: Trebuchet MS;
+    font-size: 50px
+}
+h2{
+    font-family: candara;
+    font-stretch: ultra-expande;
+    font-size: 25px;
+}
+h4{
+    font-family: candara;
+    font-stretch: ultra-expanded;
+    font-size: 15px;
+}
+img {
+    border: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    }
+.button{
+    background-color:antiquewhite;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.button:hover{
+    background-color:rgb(202, 191, 174)
+}
