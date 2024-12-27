@@ -39,7 +39,7 @@ h2{
     height: 47px;
     position: fixed;
     bottom: 7px;
-    left: 43%;
+    left: 40%;
     transform: rotateX(-50%);
     transition: transform 0.3s;
 }
@@ -51,7 +51,7 @@ h2{
     height: 37px;
     position: fixed;
     bottom: 10px;
-    left: 52%;
+    left: 54%;
     transform: rotateX(-50%);
     transition: transform 0.3s;
 }
