@@ -60,13 +60,13 @@ h2 {
 }
 
 .footer-button1 img {
-    width: 41px;
-    height: 41px;
+    max-width: 7%;
+    height: auto;
     transition: transform 0.3s;
 }
 .footer-button2 img {
-    width: 29px;
-    height: 29px;
+    max-width: 6%;
+    height: auto;
     transition: transform 0.3s;
 }
 
