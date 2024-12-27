@@ -60,14 +60,21 @@ h2 {
 }
 
 .footer-button1 img {
-    max-width: 7%;
-    height: auto;
-    transition: transform 0.3s;
+    position: fixed;
+    bottom: 12px;
+    right: 51%;
+    width: 4.4%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 .footer-button2 img {
-    max-width: 6%;
-    height: auto;
-    transition: transform 0.3s;
+    position: fixed;
+    bottom: 20px;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .footer-button1 img:hover {
