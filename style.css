@@ -1,26 +1,30 @@
-body{
+body {
     text-align: center;
     background-color: #8c52ff;
     color: antiquewhite;
     background: linear-gradient(#6317fa);
 }
-h1{
+
+h1 {
     font-family: Trebuchet MS;
-    font-size: 25px;
+    font-size: 35px;
 }
-h2{
+
+h2 {
     font-family: candara;
     font-stretch: ultra-expande;
-    font-size: 19px;
+    font-size: 25px;
 }
-.imagem{
+
+.imagem {
     border: solid;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
     border-color: whitesmoke;
 }
-.button{
+
+.button {
     background-color: greenyellow;
     color: #111;
     text-align: center;
@@ -28,49 +32,47 @@ h2{
     padding: 5px 25px;
     border-radius: 20px;
     font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.button:hover{
+
+.button:hover {
     background-color: green;
     color: whitesmoke;
 }
-.footer-button1 img {
-    width: 47px; 
-    height: 47px;
-    position: fixed;
-    bottom: 7px;
-    left: 40%;
-    transform: rotateX(-50%);
-    transition: transform 0.3s;
-}
-.footer-button1 img:hover{
-    transform: scale(1.3);
-}
-.footer-button2 img {
-    width: 37px; 
-    height: 37px;
+
+.footer-button1 {
     position: fixed;
     bottom: 10px;
-    left: 54%;
-    transform: rotateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 40%;
+    padding: 20px;
+}
+.footer-button2 {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 50%;
+    padding: 20px;
+}
+
+.footer-button1 img {
+    width: 41px;
+    height: 41px;
     transition: transform 0.3s;
 }
-.footer-button2 img:hover{
-    transform: scale(1.3);
+.footer-button2 img {
+    width: 29px;
+    height: 29px;
+    transition: transform 0.3s;
 }
-@media screen and (max-width: 768px) {
-    h1{font-size: 20px;}
-    h2{font-size: 16px;}
-    .imagem{width: 80px; height: 80px;}
-    .button{font-size: 20px; padding: 8px 20px;}
-    .footer-button1 img{width: 40px; height: 40px; bottom: 10px; left: 35%;}
-    .footer-button2 img{width: 35px; height: 35px; bottom: 10px; left: 55%;}
+
+.footer-button1 img:hover {
+    transform: scale(1.2);
 }
-@media screen and (max-width: 480px) {
-    h1{font-size: 18px;}
-    h2{font-size: 14px;}
-    .imagem{width: 70px; height: 70px;}
-    .button{font-size: 18px; padding: 6px 15px;}
-    .footer-button1 img{width: 35px; height: 35px; bottom: 12px; left: 30%;}
-    .footer-button2 img{width: 30px; height: 30px; bottom: 12px; left: 60%;}
+.footer-button2 img:hover {
+    transform: scale(1.2);
 }
