@@ -46,7 +46,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    left: 35%;
+    left: 30%;
     padding: 20px;
 }
 .footer-button2 {
@@ -95,9 +95,9 @@ h2 {
     }
 
     .footer-button1 img {
-        width: 25%;
+        width: 11%;
     }
     .footer-button2 img {
-        width: 20%;
+        width: 8%;
     }
 }
