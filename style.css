@@ -33,11 +33,13 @@ h2 {
     border-radius: 30px;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .2s;
 }
 
 .button:hover {
     background-color: green;
     color: whitesmoke;
+    transform: scale(1.2);
 }
 
 .footer-button1 {
